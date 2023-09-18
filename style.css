@@ -1,0 +1,17 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
