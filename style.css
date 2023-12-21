@@ -2,6 +2,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    font-style: normal;
 }
 
 .header {
@@ -21,4 +22,9 @@ ul {
     width: 400px;
     height: 200px;
     background-color: black;
+}
+
+.page.one {
+    display: flex;
+    flex-direction: row;
 }
