@@ -3,6 +3,12 @@ ul {
     padding: 0 0;
     list-style-type: none;
     font-style: normal;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 body {
@@ -13,8 +19,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-right: 120px;
-    padding-left: 20px;
+    padding: 10px 140px;
     background-color: bisque;
 }
 
@@ -36,6 +41,17 @@ body {
 .one.content {
     flex: 1 1 0;
     margin: 10px 100px;
+}
+
+.one.title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.one.content.left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
