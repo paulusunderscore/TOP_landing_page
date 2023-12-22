@@ -1,15 +1,21 @@
 ul {
-    margin: 0;
-    padding: 0;
+    margin: 0 0;
+    padding: 0 0;
     list-style-type: none;
     font-style: normal;
+}
+
+body {
+    padding: 0 0;
+    margin: 0 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-right: 120px;
-    margin-left: 20px;
+    padding-right: 120px;
+    padding-left: 20px;
+    background-color: bisque;
 }
 
 .header-right {
@@ -18,13 +24,20 @@ ul {
     gap: 40px;
 }
 
-.one.image {
-    width: 400px;
-    height: 200px;
-    background-color: black;
-}
-
 .page.one {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    background-color: bisque;
+    padding: 0 0;
 }
+
+.one.content {
+    flex: 1 1 0;
+    margin: 10px 100px;
+}
+
+
+
+
