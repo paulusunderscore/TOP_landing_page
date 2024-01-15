@@ -85,7 +85,16 @@ img { width: 100%; height: auto; }
     background-color: #E5E7EB;
 }
 
-
+.page.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin: 50px 100px;
+    padding: 15px 40px;
+    background-color: #3882f6;
+}
 
 
 
