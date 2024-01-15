@@ -71,10 +71,21 @@ body {
 }
 
 .content.block {
-    width: 250px;
+    width: 200px;
 }
 
 img { width: 100%; height: auto; }
+
+.page.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #E5E7EB;
+}
+
+
 
 
 
